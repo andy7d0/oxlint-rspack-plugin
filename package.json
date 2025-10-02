@@ -1,6 +1,6 @@
 {
   "name": "oxlint-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An OxLint plugin for webpack",
   "main": "index.js",
   "types": "types.d.ts",
@@ -11,12 +11,12 @@
     "plugin",
     "webpack"
   ],
-  "homepage": "https: //github.com/asilgag/oxlint-webpack-plugin",
+  "homepage": "https://github.com/asilgag/oxlint-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "https: //github.com/asilgag/oxlint-webpack-plugin"
+    "url": "https://github.com/asilgag/oxlint-webpack-plugin"
   },
-  "author": "Alberto Silva Gago <asilgag@gmail.com>",
+  "author": "Alberto Silva <asilgag@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "oxlint": "^1.0.0",
