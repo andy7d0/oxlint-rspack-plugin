@@ -15,12 +15,18 @@
   "homepage": "https://github.com/andy7d0/oxlint-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andy7d0/oxlint-webpack-plugin"
+    "url": "git+https://github.com/andy7d0/oxlint-webpack-plugin.git"
   },
   "author": "andy <andy7d0@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "oxlint": "^1.0.0",
     "webpack": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/andy7d0/oxlint-webpack-plugin/issues"
   }
 }
