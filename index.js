@@ -95,6 +95,7 @@ class OxLintWebpackPlugin {
         // Create a new group
         group = [];
       } else {
+        if(!group) group = [];
         group.push(line);
       }
     }

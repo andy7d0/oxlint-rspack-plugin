@@ -1,7 +1,7 @@
 {
-  "name": "oxlint-webpack-plugin",
-  "version": "1.0.2",
-  "description": "An OxLint plugin for webpack",
+  "name": "oxlint-rspack-plugin",
+  "version": "1.0.6",
+  "description": "An OxLint plugin for rspack",
   "main": "index.js",
   "types": "types.d.ts",
   "keywords": [
@@ -9,14 +9,15 @@
     "lint",
     "linter",
     "plugin",
-    "webpack"
+    "webpack",
+    "rspack"
   ],
-  "homepage": "https://github.com/asilgag/oxlint-webpack-plugin",
+  "homepage": "https://github.com/andy7d0/oxlint-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asilgag/oxlint-webpack-plugin"
+    "url": "https://github.com/andy7d0/oxlint-webpack-plugin"
   },
-  "author": "Alberto Silva <asilgag@gmail.com>",
+  "author": "andy <andy7d0@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "oxlint": "^1.0.0",
