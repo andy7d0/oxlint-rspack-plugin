@@ -1,25 +1,25 @@
-# oxlint-webpack-plugin
+# oxlint-rspack-plugin
 
-This plugin uses [`Oxlint`](https://github.com/oxc-project/oxc) to find and fix problems in your JavaScript code during the Webpack build process.
+This plugin uses [`Oxlint`](https://github.com/oxc-project/oxc) to find and fix problems in your JavaScript code during the rspack build process.
 
 ## Getting Started
 
-To begin, you'll need to install `oxlint-webpack-plugin`:
+To begin, you'll need to install `oxlint-rspack-plugin`:
 
 ```console
-npm install oxlint-webpack-plugin --save-dev
+npm install oxlint-rspack-plugin --save-dev
 ```
 
 or
 
 ```console
-yarn add -D oxlint-webpack-plugin
+yarn add -D oxlint-rspack-plugin
 ```
 
 or
 
 ```console
-pnpm add -D oxlint-webpack-plugin
+pnpm add -D oxlint-rspack-plugin
 ```
 
 > [!NOTE]
@@ -42,14 +42,14 @@ or
 pnpm add -D oxlint
 ```
 
-Then add the plugin to your webpack configuration. For example:
+Then add the plugin to your rspack configuration. For example:
 
 ```js
-const { OxLintWebpackPlugin } = require("oxlint-webpack-plugin");
+const { OxLintrspackPlugin } = require("oxlint-rspack-plugin");
 
 module.exports = {
   // ...
-  plugins: [new OxLintWebpackPlugin(options)]
+  plugins: [new OxLintrspackPlugin(options)]
   // ...
 };
 ```
@@ -74,11 +74,11 @@ Possible values: `"default"` or `"stylish"` (recommended).
 
 > [!NOTE]
 >
-> `"stylish"` is shorter, more concise and better for webpack build processes.
+> `"stylish"` is shorter, more concise and better for rspack build processes.
 
 > [!NOTE]
 >
-> `OxLint` provides several other formats, but only those mentioned above are useful in the context of webpack.
+> `OxLint` provides several other formats, but only those mentioned above are useful in the context of rspack.
 
 ### `childProcessMaxFiles`
 

@@ -1,6 +1,6 @@
 {
   "name": "oxlint-rspack-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An OxLint plugin for rspack",
   "main": "index.js",
   "types": "types.d.ts",
